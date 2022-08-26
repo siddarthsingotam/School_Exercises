@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecac166b-d2b9-4349-88d3-4e1ffcdaa72e" name="Changes" comment="Number Calculations" />
+    <list default="true" id="ecac166b-d2b9-4349-88d3-4e1ffcdaa72e" name="Changes" comment="Input &amp; print name from user">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661491468107</updated>
-      <workItem from="1661491471010" duration="4839000" />
+      <workItem from="1661491471010" duration="5181000" />
     </task>
     <task id="LOCAL-00001" summary="made changes to hello world">
       <created>1661491918184</created>
@@ -97,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661496569346</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Input &amp; print name from user">
+      <created>1661497085741</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661497085741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +129,8 @@
     <MESSAGE value="Rectangle Geometry" />
     <MESSAGE value="Average of Numbers" />
     <MESSAGE value="Number Calculations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Number Calculations" />
+    <MESSAGE value="Input &amp; print name from user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input &amp; print name from user" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/School_Exercises$main.coverage" NAME="main Coverage Results" MODIFIED="1661492777940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
