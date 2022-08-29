@@ -7,6 +7,6 @@ adn = num1+num2+num3
 pro = num1*num2*num3
 avg = adn/3
 
-print("The sum of 3 numbers is :",adn)
+print("The sum of 3 numbers is :", adn)
 print("the product of 3 numbers is :",pro)
 print("The average of the numbers is :",avg)
