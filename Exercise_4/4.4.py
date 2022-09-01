@@ -16,6 +16,7 @@ while guess_taken != "":
     if guess == number:
         print("your guess is correct")
         print("yay the number is", number, "you took", guess_taken,"guess(es)")
+        break
         #change formatted
 
 
