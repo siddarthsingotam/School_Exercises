@@ -1,4 +1,4 @@
-print ("You must be an adult to get youe hemoglobin value right in this calculator")
+print("You must be an adult to get your hemoglobin value right in this calculator")
 gender = str(input("Please enter your gender. \n (male/female) : "))
 
 if gender == str("male") :
