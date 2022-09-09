@@ -1,8 +1,9 @@
 cities = []
 
 for n in range(0, 5):
-    name = input(f"Enter the city number {n+1}: ")
+    name = input(f"Enter the city {n+1}: ")
     cities.append(name)
 
+print(f"\nThe order of cities are: \n ")
 for m in cities:
-    print(f"The {cities.index(m)+1} city is: {m.capitalize()}")
+    print(f"City {cities.index(m)+1} is: {m.capitalize()}")
