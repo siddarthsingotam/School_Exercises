@@ -5,8 +5,8 @@ def conversion(gallon):
         if gallon >= 0:
             print(round(litres, 3), "litres")
     else:
-        print("negative value recorded")
+        print("negative value recorded. try again with a positive value")
 
-    return gallon
+    return gallon, "litres not possible"
 
 print(conversion(1))
