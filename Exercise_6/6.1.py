@@ -1,6 +1,6 @@
 def dice():
     import random
-    x = random.randint(1, 6)
+    x = None
     rolls = 0
     while x != 6:
         x = random.randint(1, 6)
