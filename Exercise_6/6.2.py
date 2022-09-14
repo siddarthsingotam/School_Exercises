@@ -2,7 +2,7 @@
 def dice(sides):
     import random
 
-    x = random.randint(1, sides)
+    x = None
     rolls = 0
     while x != sides:
         x = random.randint(1, sides)
