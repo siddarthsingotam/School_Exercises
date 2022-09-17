@@ -1,4 +1,4 @@
-# Here, seasons is a set data structure.
+# Here, seasons is a tuple data structure.
 seasons = ("spring", "summer", "autumn", "winter")
 month = int(input("Enter the month number to find the season. (1-12) :"))
 
