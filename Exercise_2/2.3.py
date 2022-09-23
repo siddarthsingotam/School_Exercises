@@ -4,4 +4,4 @@ area = len*wid
 per = 2*(len+wid)
 print("Rectangle:")
 print("Area is :",area)
-print("Perimeter is :",per)1
+print("Perimeter is :",per)
