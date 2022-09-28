@@ -1,28 +1,24 @@
 import mysql.connector
 
-
-def getAirportType(iso_nation_co):
-    sql = 'SELECT name, type FROM airport WHERE iso_country = ' f'"{iso_nation_co}"' + ' ORDER BY type;'
+def airport_name_town(icao_code):
+    sql = 'SELECT name, municipality from airport where ident ='+f'"{icao_code}"'+";"
     cursor = connection.cursor()
     cursor.execute(sql)
     result = cursor.fetchall()
-    for rows in result:
-        print(f"Airport Name: {rows[0]}, Airport Type: {rows[1]}")
+    if cursor.rowcount >0:
+        for row in result:
+            print(f"Name: {result[0][0]}, Town: {result[0][1]}")
     return
 
 
 connection = mysql.connector.connect(
-    host="127.0.0.1",
-    port="3306",
-    database="flight_game",
-    user="root",
-    password="yoyo@123",
-    autocommit=True
+    host='127.0.0.1',
+    port='3306',
+    database='flight_game',
+    user='root',
+    password='yoyo@123',
+    autocommit=True)
 
-)
 
-iso_nation_co = input("Enter nation code: ")
-getAirportType(iso_nation_co)
-
-print("Bon voyage!")
-#commit 2
+i_code = input("Enter ICAO code: ").upper()
+print(airport_name_town(i_code))
