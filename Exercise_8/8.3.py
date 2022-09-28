@@ -43,4 +43,4 @@ for i in getAirportCoordinates(icao_code_2)[0]:
 coordinates_1 = tuple(coordinates_1)
 coordinates_2 = tuple(coordinates_2)
 
-print(f"The distance between {icao_code_1} and {icao_code_2} is {distance.distance(coordinates_1, coordinates_2)}.")
+print(f"The distance between {icao_code_1} and {icao_code_2} will be {distance.distance(coordinates_1, coordinates_2)}.\n Bon Voyage!")
