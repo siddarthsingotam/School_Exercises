@@ -22,4 +22,3 @@ connection = mysql.connector.connect(
 
 i_code = input("Enter ICAO code: ").upper()
 print(airport_name_town(i_code))
-# commit 2
