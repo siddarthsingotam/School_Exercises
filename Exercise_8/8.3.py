@@ -44,4 +44,4 @@ coordinates_1 = tuple(coordinates_1)
 coordinates_2 = tuple(coordinates_2)
 
 print(f"The distance between Area 1: {coordinates_1} and Area 2: {coordinates_2} is {distance.distance(coordinates_1, coordinates_2 )}")
-print("Bon voyage!")
+print("Bon voyage!!")
