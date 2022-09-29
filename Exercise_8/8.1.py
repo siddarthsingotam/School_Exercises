@@ -7,7 +7,7 @@ def airport_name_town(icao_code):
     result = cursor.fetchall()
     if cursor.rowcount >0:
         for row in result:
-            print(f"Name: {result[0][0]}, Town: {result[0][1]}")
+            print(f" Airport name: {result[0][0]}, Town: {result[0][1]}")
     return
 
 
@@ -21,5 +21,5 @@ connection = mysql.connector.connect(
 
 
 i_code = input("Enter ICAO code: ").upper()
-print(airport_name_town(i_code))
+airport_name_town(i_code)
 # Commit 2
