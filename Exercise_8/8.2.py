@@ -20,6 +20,6 @@ connection = mysql.connector.connect(
 
 )
 # User Input
-iso_country_code = input("Please enter Country code: ")
-
-airport_type(iso_country_code)
+find = input("Please enter Country code: ")
+# Output
+airport_type(find)
