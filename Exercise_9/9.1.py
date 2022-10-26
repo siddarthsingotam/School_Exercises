@@ -14,9 +14,9 @@ c2 = input("Enter current speed(km/h): ")
 c3 = input(f"Enter maximum speed(km/h): ")
 c4 = input(f"Enter distance travelled(km): ")
 
-car = Car(c1, int(c2), int(c3), int(4))
+car = Car(c1, int(c2), int(c3), int(c4))
 
-print(f"\nVehicle Info:\n\nRegistration ID: {c1}\nCurrent Speed: {c2} km/h\nMax speed: {c3} km/h\nCovered distance: {c4} km")
+print(f"\nVehicle Info:\n\nRegistration ID: {car.reg_no}\nCurrent Speed: {car.cur_spd} km/h\nMax speed: {car.max_spd} km/h\nCovered distance: {car.dist} km")
 
 
 
