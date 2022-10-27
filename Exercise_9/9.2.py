@@ -15,14 +15,12 @@ class Car:
 
 car = Car()
 
-# checking preset info, set the current speed as 50 for example. Also max speed as 350🔥🔥🔥
+# checking preset info, set the current speed as 50 for example. Also max speed as 350
 car = Car("ABC-123", 50, 350, car.dist)
 
 print(f"\nVehicle Preset Info: Current speed = {car.cur_spd} km/h\n\nRegistration ID: {car.reg_no}\nCurrent Speed: {car.cur_spd} km/h\n"
       f"Max speed: {car.max_spd} km/h"
       )
-
-car = Car("ABC-123", 50, 240, car.dist)
 
 # For loop for listing out the changes in speed of the car.
 number_info = 0
