@@ -19,29 +19,19 @@ connection = mysql.connector.connect(
     autocommit=True
 
 )
-
 # Asking input
 icao_code_1 = input("Enter Nation Code of Airport 1: ")
-
-
 icao_code_2 = input("Enter Nation Code of Airport 2: ")
-
 coordinates_1 = []
-
 coordinates_2 = []
-
 # For-loop
-
 for i in AirportCoordinates(icao_code_1)[0]:
     coordinates_1.append(float(i))
-
 for i in AirportCoordinates(icao_code_2)[0]:
     coordinates_2.append(float(i))
 
 # Converting list to tuple
-
 coordinates_1 = tuple(coordinates_1)
 coordinates_2 = tuple(coordinates_2)
-
 print(f"The distance between Area 1: {coordinates_1} and Area 2: {coordinates_2} is {distance.distance(coordinates_1, coordinates_2 )}")
 print("Bon voyage!")
