@@ -1,5 +1,5 @@
 class Elevator:
-    def __init__(self, top_floor=10, bottom_floor=0):
+    def __init__(self, top_floor, bottom_floor=0):
         self.top_floor = top_floor
         self.bottom_floor = bottom_floor
         self.cur_floor = bottom_floor
