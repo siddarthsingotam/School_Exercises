@@ -22,7 +22,7 @@ class Elevator:
             if floor < self.cur_floor:
                 self.floor_down()
                 print(f"Going down, now on floor: {self.cur_floor}")
-        print(f"Reached floor: {self.cur_floor} and moving to bottom floor: {self.bottom_floor}")
+        print(f"Reached floor: {self.cur_floor} and moving to bottom floor: {self.bottom_floor} if needed.")
 
 
 class Building:
@@ -43,26 +43,28 @@ class Building:
         if elevator_x > self.no_of_elevators:
             elevator_x = self.no_of_elevators
 
+        print(f"\nElevator: {elevator_x} is under operation")
         elevator_chosen = self.list_of_elevators[elevator_x-1]
         elevator_chosen.go_to_floor(go_to_floor_x)
-        print(f"{elevator_x} is under operation")
+
 
 # Main Program
-#h = Elevator(10)
 
-buildingA = Building(10, 0, 5)
-buildingA.run_elevator(2, 6)
+# Elevator plan for a building 1 🏢🛗
+building1 = Building(10, 0, 5)
+building1.run_elevator(3, 6)
+building1.run_elevator(5, 10)
+building1.run_elevator(5, 4)
+
+# Elevator plan for a building 2 🏨🛗
+
+building2 = Building(5, -1, 2)
+building2.run_elevator(1, 3)
+building2.run_elevator(2, 1)
 
 
 
 
 
-
-
-
-
-
-#b.run_elevator(2,h.go_to_floor(7))
-#h.go_to_floor()
 
 
