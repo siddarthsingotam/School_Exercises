@@ -40,9 +40,11 @@ while not race_over:
         car.drive(1)
         if car.dist >= total_dist_to_cover:
             race_over = True
+            print(f"\nThe Car with Registration no. = {car.reg_no}, Distance = {car.dist} km won the race!\n")
+
 
 for car in car_list:
-    print(f"Registration no. = {car.reg_no}, Distance = {car.dist}")
+    print(f"Registration no. = {car.reg_no}, Distance = {car.dist} km")
     # Here in the for loop the car with maximum distance ex. 10,000km+ is the 1st place
 
 
