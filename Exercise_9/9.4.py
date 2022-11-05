@@ -47,6 +47,7 @@ for car in car_list:
     print(f"Registration no. = {car.reg_no}, Distance = {car.dist} km")
     # Here in the for loop the car with maximum distance ex. 10,000km+ is the 1st place
 
+print(f"\nRace Finished!")
 
 
 
