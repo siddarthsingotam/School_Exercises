@@ -4,7 +4,7 @@ class Elevator:
         self.bottom_floor = bottom_floor
         self.cur_floor = bottom_floor
 
-    def floor_up(self): # Method to go UP⬆⬆️⬆️️
+    def floor_up(self): # Method to go UP⬆⬆⬆️️
         self.cur_floor = self.cur_floor + 1
 
     def floor_down(self): # Method to go DOWN⬇⬇️⬇️️
